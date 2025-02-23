@@ -28,7 +28,6 @@
   align-items: center;
   margin-block-start: 100px;
   margin-block-end: 102px;
-  min-block-size: 327px;
 }
 
 .header__text-container {
@@ -86,7 +85,7 @@
   padding-inline: 10px;
   line-height: var(--card-title-line-height, 1.3612rem);
   padding-block: 0.2rem;
-  font-variation-settings: var(--font-wght-bold, 700);
+  font-variation-settings: 'wght' var(--font-wght-bold, 700);
 }
 
 .decorated-zone {
@@ -296,7 +295,6 @@
 
 .button:hover::before {
   transform: translateX(0);
-  transition: transform 0.5s ease-in-out;
 }
 
 .button:focus-visible {
